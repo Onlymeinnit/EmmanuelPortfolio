@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         * {
+        margin: 0;
+      }
+      .container {
+        width: 100%;
+        height: 95vh;
+        /* background-color: brown; */
+        display: flex;
+        align-items: start;
+        justify-content:space-between;
+      }
+      .body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+
+      }
+      .left {
+        height: 240px;
+      }
+      .right {
+        padding-right: 210px;
+        margin-top: 30px;
+        justify-content: start;
+        align-items: center;
+      }
+       
+       .logo{
+        height: 40px;
+        margin-bottom: 25px;
+       }
+      .loginHolder{
+        display: flex;
+        gap: 20px;
+      }
+      textl {
+        font-size: 19px;
+        border-bottom-width: 3px;
+        border-bottom-style: solid;
+        border-bottom-color: blue;
+        height: 30px;
+      }
+      .usetext {
+        margin-top: 15px;
+        color: gray;
+      }
+      .inputHolder {        
+        width: 280px;
+        height: 45px;
+        display: flex;
+        background-color: rgba(240, 248, 255, 0.829);
+        align-items: center;
+        margin-top: 30px;
+      }
+      .emailinput {
+        background-color: rgba(240, 248, 255, 0.829);
+        border: none;
+        outline: none;
+        padding-left: 10px
+      }
+      .eyes {
+        height: 25px;
+        padding-left: 40px;
+      }
+      .remember{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 280px;
+      }
+      .user {
+        color: gray;
+      }
+      .text2 {
+        color: blue;
+      }
+      .logs{
+        color: white;
+        background-color: blue;
+        font-size: large;
+        width: 280px;
+        height: 40px;
+        margin-top: 20px;
+        border: none;
+      }
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 280px;
+        margin-top: 5%;
+        height: 27px;
+      }
+      .fb {
+        color: white;
+        background-color: rgb(69, 53, 214);
+        border: none;
+      }
+      .gg {
+        color: white;
+        background-color: red;
+        border: none;
+      }
+      .tweet{
+        color: white;
+        background-color: aqua;
+        border: none;
+      }
+      .last{
+        margin-top: 12px;
+        display: flex;
+
+      }
+      .text3{
+        color: blue;
+        margin-top: 15px;
+      }           
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./images/bg-08.png" alt="to" height="600px" width="700px">
+        </div>
+        <div class="right">
+            <img src="./images/logo-08.svg" alt="no" class="logo">
+            <div class="loginHolder">
+              <h2 class="textl">Login into account</h2>
+            </div>
+            <p class="usetext">Use your credentials to access your account.</p>
+            <div class="inputHolder">
+              <input type="text" placeholder="Email Address" class="emailinput"/>
+            </div>
+            <div class="inputHolder">
+              <input type="text" placeholder="Password" class="emailinput" />
+              <img src="./OIP.jpg" class="eyes">
+            </div>
+            <div class="remember">
+               <input type="checkbox">
+              <p class="user">Remember me</p>
+            <div>
+              <p class="text2"><a href="">Forgot password?</a></p>
+            </div>
+            </div>
+            <div>
+              <button class="logs">Login</button>
+            </div>
+            <div class="usetext">
+              <p><sup>______________</sup> or login with <sup>______________</sup></p>
+            </div>
+            <div class="buttons">
+              <button class="fb">Facebook</button>
+              <button class="gg">Google</button>
+              <button class="tweet">Twitter</button>
+            </div>
+            <div class="last">
+              <p class="usetext">Dont have an account?</p>
+              <p class="text3"><a href=""> Register Here</a></p>              
+            </div>
+        </div>        
+    </div>
+</body>
+</html>
